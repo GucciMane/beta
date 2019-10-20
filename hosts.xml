@@ -517,4 +517,16 @@
 	}]]></searchpattern>
 </host>
 
+<host id="Xoneclickchicks">
+<urlpattern>^http:\/\/forum\.oneclickchicks\.com\/attachment\.php\?attachmentid=\d+</urlpattern>
+<searchpattern><![CDATA[function(pageData, pageUrl) {
+	var retVal = new Object();
+	
+	retVal.imgUrl = pageUrl;
+	retVal.status = "OK";
+	
+	return retVal;
+	}]]></searchpattern>
+</host>
+
 </root>
