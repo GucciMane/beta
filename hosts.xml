@@ -500,8 +500,7 @@
 
 <!-- Verified -->
 <host id="x">
-  <domain-pattern>
-  ^http:\/\/forum\.oneclickchicks\.com\/attachment\.php\?attachmentid=\d+</urlpattern>
+  <domain-pattern>^http:\/\/forum\.oneclickchicks\.com\/attachment\.php\?attachmentid=\d+</urlpattern>
   </domain-pattern>
   <path-pattern>
   <![CDATA[]]>
